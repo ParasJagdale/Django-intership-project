@@ -1,0 +1,17 @@
+/* Center the headline text */
+.container .navbar-brand {
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Make the headline occupy full page height */
+  .container .navbar-brand {
+    height: 100vh;
+    line-height: 100vh; /* Center the text vertically */
+  }
+  
+  /* Add hover effect to the headline */
+  .container .navbar-brand:hover {
+    color: #f0f0f0; /* Add a glow effect on hover */
+    text-shadow: 0 0 5px #fff; /* Add an outer shadow on hover */
+  }
