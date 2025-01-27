@@ -11,9 +11,10 @@
 
 /* Center headline text */
 .headline {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%; */
+  text-align: center;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 4rem;
@@ -23,11 +24,11 @@
   transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* Glow effect on hover */
+/* Glow effect on hover
 .headline:hover {
   text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.8);
   color: #f8d7da;
-}
+} */
 
 /* Responsive tweaks for smaller screens */
 @media (max-width: 768px) {
