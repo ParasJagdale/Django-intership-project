@@ -64,7 +64,7 @@ python manage.py runserver
 
 Navigate to: http://localhost:8000
 
----
+```
 django-twitter-like-app/
 ├── manage.py
 ├── media/
@@ -73,4 +73,4 @@ django-twitter-like-app/
 ├── core/               # Main app for posts and user logic
 ├── users/              # Authentication and profiles
 └── ...
----
+```
